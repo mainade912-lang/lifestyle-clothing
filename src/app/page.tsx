@@ -1,0 +1,1 @@
+import Hero from '@/components/sections/Hero'\n\nexport default function Home() {\n  return (\n    <main className=\"bg-luxury-black\">\n      <Hero />\n    </main>\n  )\n}\n

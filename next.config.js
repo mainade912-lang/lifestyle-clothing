@@ -1,0 +1,1 @@
+/** @type {import('next').NextConfig} */\nconst nextConfig = {\n  reactStrictMode: true,\n  experimental: {\n    optimizePackageImports: ['@react-three/fiber', '@react-three/drei', 'three'],\n  },\n  images: {\n    remotePatterns: [\n      {\n        protocol: 'https',\n        hostname: '**',\n      },\n    ],\n  },\n};\n\nmodule.exports = nextConfig;\n
